@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    margin: 0;
+    background-image: url(Mylove.JPG);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #85b195;
+}
+
+.body-container {
+    all: unset;
+    background-color: rgb(190 222 214);
+    opacity: 0.8;
+    margin-top: -28rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    width: 37.25%;
+    height: auto;
+}
+
+.countdown-container {
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* h1 {
+    color: rgb(131, 17, 74);
+    text-align: center;
+} */
+
+.days-c, .hours-c, .minutes-c, .seconds-c{
+    text-align: center;
+    font-weight: 900;
+    font-size: 24px;
+    color: rgb(92 11 4);
+    line-height: 5px;
+    margin-bottom: 28px;
+}
+
+h1 {
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    color: #111;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+}
+
+h1 span {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    animation: animate 5s linear infinite;
+}
+
+h1 span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+
+h1 span:nth-child(2)
+{
+    animation-delay: 0.25s;
+}
+
+h1 span:nth-child(3)
+{
+    animation-delay: 0.5s;
+}
+
+h1 span:nth-child(4)
+{
+    animation-delay: 0.75s;
+}
+
+h1 span:nth-child(5)
+{
+    animation-delay: 1s;
+}
+
+h1 span:nth-child(6)
+{
+    animation-delay: 1.25s;
+}
+
+h1 span:nth-child(7)
+{
+    animation-delay: 1.5s;
+}
+
+h1 span:nth-child(8)
+{
+    animation-delay: 1.75s;
+}
+
+h1 span:nth-child(9)
+{
+    animation-delay: 2s;
+}
+
+h1 span:nth-child(10)
+{
+    animation-delay: 2.25s;
+}
+
+h1 span:nth-child(11)
+{
+    animation-delay: 2.5s;
+}
+
+h1 span:nth-child(11)
+{
+    animation-delay: 2.75s;
+}
+
+h1 span:nth-child(12)
+{
+    animation-delay: 3s;
+}
+
+h1 span:nth-child(13)
+{
+    animation-delay: 3.25s;
+}
+
+h1 span:nth-child(14)
+{
+    animation-delay: 3.5s;
+}
+
+h1 span:nth-child(15)
+{
+    animation-delay: 3.75s;
+}
+
+h1 span:nth-child(16)
+{
+    animation-delay: 4s;
+}
+
+h1 span:nth-child(17)
+{
+    animation-delay: 4.25s;
+}
+
+h1 span:nth-child(18)
+{
+    animation-delay: 4.5s;
+}
+
+@keyframes animate
+{
+    0%, 100%{
+        color: #fff;
+        fillter: blur(2px);
+        text-shadow: 0 0 10px #ff00ff,
+                    0 0 20px #ff00ff,
+                    0 0 40px #ff00ff,
+                    0 0 80px #ff00ff,
+                    0 0 120px #ff00ff,
+                    0 0 200px #ff00ff,
+                    0 0 300px #ff00ff,
+                    0 0 400px #ff00ff,
+                    0 0 500px #ff00ff,
+                    0 0 600px #ff00ff;
+                    
+    }
+    5%, 95%{
+        color: #111;
+        fillter: blur(0px);
+        text-shadow: 0 0 10px none,
+    }
+}
+
+
